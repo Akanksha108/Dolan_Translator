@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+:root{
+    --primary-color: #1E40AF;
+    --footer-color: #FACC15;
+}
+
+
+body{
+    text-align: center;
+    margin: 0;
+   
+}
+
+#header{
+    height: 90px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    padding-top: 25px;
+    background-color: var(--primary-color);
+    font-size: 50px;
+}
+
+
+textarea{
+    display: block;
+    margin: auto;
+}
+
+#transalte_txt{
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.text-input{
+    width: 60%;
+    height: 125px;   
+    padding: 1rem;
+    margin-bottom: 0;
+    font-size: 20px;
+    
+}
+
+#btn-translate{
+    margin: 2rem;
+    padding: 10px;
+    font-size: 20px;
+    background-color: var(--primary-color);
+    color: black;
+    font-weight: bold;
+    width: 20%;
+}
+
+.text-output{
+    width: 60%;
+    height: 75px;
+    overflow-x:auto;
+    overflow-y: auto;
+    font-size: 20px;
+}
+
+.footer_section{
+    text-align: center;
+    margin: auto;
+    margin-top: 2rem;
+    background-color: var(--footer-color);
+    height: 160px;
+    padding: 10 40px 40px;
+}
+
+#footer_about{
+    padding: 10px;
+    font-size: 40px;
+}
+
+.footer_section p{
+  max-width: 750px;
+  margin: auto;
+  font-size: large;
+  font-size: 23px;
+}
