@@ -17,7 +17,7 @@ function errorHandler(error){
 
 function clickHandler(){
 
-    console.log(textInput.value);
+    //console.log(textInput.value);
 
     fetch(getTranslationalURL(textInput.value))
     .then(response => response.json())
