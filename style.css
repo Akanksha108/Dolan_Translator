@@ -14,7 +14,7 @@
 body{
     text-align: center;
     margin: 0;
-   overflow-y: hidden;
+   /* overflow-y: hidden; */
 }
 
 #header{
@@ -26,6 +26,22 @@ body{
     font-size: 50px;
 }
 
+.main_container{
+    display: flex;
+}
+
+.img_container{
+    width: 30%;
+}
+
+.form_container{
+    width: 70%;
+}
+
+#donald_img{
+    width: 300px;
+    height: 300px;
+}
 
 textarea{
     display: block;
