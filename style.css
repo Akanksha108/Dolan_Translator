@@ -14,7 +14,7 @@
 body{
     text-align: center;
     margin: 0;
-   
+   overflow-y: hidden;
 }
 
 #header{
@@ -39,7 +39,7 @@ textarea{
 
 .text-input{
     width: 60%;
-    height: 125px;   
+    height: 75px;   
     padding: 1rem;
     margin-bottom: 0;
     font-size: 20px;
